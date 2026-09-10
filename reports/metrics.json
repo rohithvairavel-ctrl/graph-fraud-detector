@@ -1,0 +1,41 @@
+{
+  "tabular_only": {
+    "roc_auc": 0.906888,
+    "pr_auc": 0.299545,
+    "precision_at_50": 0.3,
+    "precision_at_100": 0.25,
+    "precision_at_1pct": 0.333333,
+    "model": "RandomForest"
+  },
+  "tabular_plus_graph": {
+    "roc_auc": 0.987011,
+    "pr_auc": 0.918297,
+    "precision_at_50": 0.62,
+    "precision_at_100": 0.33,
+    "precision_at_1pct": 1.0,
+    "model": "GradientBoosting"
+  },
+  "rf_tabular_plus_graph": {
+    "roc_auc": 0.985269,
+    "pr_auc": 0.927003,
+    "precision_at_50": 0.62,
+    "precision_at_100": 0.33,
+    "precision_at_1pct": 1.0,
+    "model": "RandomForest"
+  },
+  "lift": {
+    "roc_auc_lift": 0.080123,
+    "pr_auc_lift": 0.618752,
+    "precision_at_50_lift": 0.32
+  },
+  "n_train": 1875,
+  "n_test": 625,
+  "fraud_rate_test": 0.0544,
+  "modeling_choice": "sklearn on engineered graph features (degree, PageRank, Louvain, shared device/IP, cycles/triangles). GraphSAGE/torch-geometric omitted for clean install and reproducibility; feature-based approach is production-friendly and shows clear lift.",
+  "label_propagation": {
+    "roc_auc": 0.551184,
+    "pr_auc": 0.062796,
+    "model": "LabelPropagation(knn)",
+    "note": "Semi-supervised propagation on standardized tabular+graph features"
+  }
+}

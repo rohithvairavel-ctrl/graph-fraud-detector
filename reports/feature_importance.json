@@ -1,0 +1,37 @@
+{
+  "tabular_only": {
+    "tx_count": 0.265512,
+    "tx_amount_sum": 0.117054,
+    "tx_amount_mean": 0.063008,
+    "tx_amount_std": 0.058156,
+    "tx_amount_max": 0.050876,
+    "unique_counterparties": 0.165429,
+    "account_age_days": 0.040757,
+    "avg_tx_hour": 0.069294,
+    "night_tx_ratio": 0.169914
+  },
+  "tabular_plus_graph": {
+    "tx_count": 0.02023,
+    "tx_amount_sum": 0.021478,
+    "tx_amount_mean": 0.007069,
+    "tx_amount_std": 0.002506,
+    "tx_amount_max": 0.002185,
+    "unique_counterparties": 0.006525,
+    "account_age_days": 0.013822,
+    "avg_tx_hour": 0.014043,
+    "night_tx_ratio": 0.00929,
+    "degree": 0.0424,
+    "in_degree": 0.004897,
+    "out_degree": 0.00579,
+    "pagerank": 0.006657,
+    "clustering": 0.030049,
+    "community_id": 0.001738,
+    "community_size": 0.002569,
+    "component_size": 0.0,
+    "shared_device_count": 0.030507,
+    "shared_ip_count": 0.677997,
+    "triangle_count": 0.02455,
+    "cycle_flag": 0.0,
+    "neighbor_fraud_ratio_proxy": 0.075697
+  }
+}
