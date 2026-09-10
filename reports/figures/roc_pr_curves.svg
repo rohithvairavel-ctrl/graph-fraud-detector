@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380">
+  <style>.t{font-family:Helvetica,Arial,sans-serif;fill:#1d3557;font-size:12px}.h{font-size:15px;font-weight:bold}</style>
+  <rect width="800" height="380" fill="#fff"/>
+  <text x="200" y="30" text-anchor="middle" class="t h">ROC Curve</text>
+  <text x="600" y="30" text-anchor="middle" class="t h">Precision–Recall</text>
+  <rect x="60" y="50" width="280" height="280" fill="none" stroke="#333"/>
+  <line x1="60" y1="330" x2="340" y2="50" stroke="#adb5bd" stroke-dasharray="4"/>
+  <path d="M60,330 C100,120 140,80 340,55" fill="none" stroke="#6c757d" stroke-width="2.5"/>
+  <path d="M60,330 C90,80 120,58 340,52" fill="none" stroke="#e63946" stroke-width="2.5"/>
+  <text x="70" y="70" class="t" style="fill:#6c757d">Tabular AUC=0.907</text>
+  <text x="70" y="88" class="t" style="fill:#e63946">Graph AUC=0.987</text>
+  <text x="200" y="355" text-anchor="middle" class="t">FPR</text>
+  <rect x="460" y="50" width="280" height="280" fill="none" stroke="#333"/>
+  <path d="M460,200 C520,180 560,220 740,310" fill="none" stroke="#6c757d" stroke-width="2.5"/>
+  <path d="M460,55 C500,60 600,80 740,200" fill="none" stroke="#e63946" stroke-width="2.5"/>
+  <text x="470" y="70" class="t" style="fill:#6c757d">Tabular AP=0.300</text>
+  <text x="470" y="88" class="t" style="fill:#e63946">Graph AP=0.918</text>
+  <text x="600" y="355" text-anchor="middle" class="t">Recall</text>
+</svg>

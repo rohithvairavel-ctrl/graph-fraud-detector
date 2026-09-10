@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <style>
+    .box { fill:#f1faee; stroke:#1d3557; stroke-width:2; rx:8; }
+    .box2 { fill:#a8dadc; stroke:#1d3557; stroke-width:2; rx:8; }
+    .box3 { fill:#e63946; stroke:#1d3557; stroke-width:2; rx:8; }
+    .t { font-family:Helvetica,Arial,sans-serif; font-size:13px; fill:#1d3557; text-anchor:middle; }
+    .h { font-family:Helvetica,Arial,sans-serif; font-size:15px; font-weight:bold; fill:#1d3557; text-anchor:middle; }
+    .arrow { stroke:#457b9d; stroke-width:2; marker-end:url(#arrow); fill:none; }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#457b9d"/>
+    </marker>
+  </defs>
+  <text x="450" y="28" class="h">Graph Fraud Detector Pipeline</text>
+  <rect x="30" y="60" width="150" height="80" class="box"/>
+  <text x="105" y="95" class="h">Synthetic</text>
+  <text x="105" y="115" class="t">Payment Graph</text>
+  <text x="105" y="132" class="t">+ Fraud Rings</text>
+  <rect x="230" y="60" width="150" height="80" class="box"/>
+  <text x="305" y="95" class="h">Graph Build</text>
+  <text x="305" y="115" class="t">Accounts→Nodes</text>
+  <text x="305" y="132" class="t">Transfers→Edges</text>
+  <rect x="430" y="50" width="170" height="100" class="box2"/>
+  <text x="515" y="80" class="h">Network Feats</text>
+  <text x="515" y="100" class="t">Degree · PageRank</text>
+  <text x="515" y="118" class="t">Louvain · Cycles</text>
+  <text x="515" y="136" class="t">Shared Device/IP</text>
+  <rect x="650" y="40" width="220" height="55" class="box"/>
+  <text x="760" y="62" class="h">Baseline ML</text>
+  <text x="760" y="82" class="t">Tabular features only</text>
+  <rect x="650" y="115" width="220" height="55" class="box3"/>
+  <text x="760" y="137" class="h" style="fill:#fff">Tabular + Graph</text>
+  <text x="760" y="157" class="t" style="fill:#fff">Show lift (ROC/PR)</text>
+  <path class="arrow" d="M180 100 H230"/>
+  <path class="arrow" d="M380 100 H430"/>
+  <path class="arrow" d="M600 85 H650"/>
+  <path class="arrow" d="M600 140 H650"/>
+  <rect x="30" y="200" width="840" height="90" class="box"/>
+  <text x="450" y="230" class="h">Outputs</text>
+  <text x="450" y="255" class="t">ROC-AUC · PR-AUC · Precision@k  |  Streamlit: neighborhood explore + feature contributions</text>
+  <text x="450" y="275" class="t">Optional: Label Propagation (sklearn) — GraphSAGE skipped for clean installs</text>
+</svg>

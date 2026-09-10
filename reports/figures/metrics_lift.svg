@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <style>.t{font-family:Helvetica,Arial,sans-serif;fill:#1d3557}.h{font-size:18px;font-weight:bold}.l{font-size:12px}.v{font-size:11px;fill:#fff;text-anchor:middle}</style>
+  <rect width="720" height="420" fill="#f8f9fa"/>
+  <text x="360" y="36" text-anchor="middle" class="t h">Graph features lift over tabular baseline</text>
+  <line x1="80" y1="360" x2="680" y2="360" stroke="#333"/>
+  <line x1="80" y1="360" x2="80" y2="60" stroke="#333"/>
+  <text x="70" y="365" text-anchor="end" class="t l">0</text>
+  <text x="70" y="275" text-anchor="end" class="t l">0.5</text>
+  <text x="70" y="185" text-anchor="end" class="t l">0.75</text>
+  <text x="70" y="95" text-anchor="end" class="t l">1.0</text>
+  <rect x="120" y="106" width="60" height="254" fill="#6c757d"/>
+  <rect x="190" y="83" width="60" height="277" fill="#e63946"/>
+  <text x="150" y="100" class="t v" style="fill:#1d3557">0.907</text>
+  <text x="220" y="78" class="t v" style="fill:#e63946">0.987</text>
+  <text x="185" y="385" text-anchor="middle" class="t l">ROC-AUC</text>
+  <rect x="320" y="276" width="60" height="84" fill="#6c757d"/>
+  <rect x="390" y="103" width="60" height="257" fill="#e63946"/>
+  <text x="350" y="270" class="t v" style="fill:#1d3557">0.300</text>
+  <text x="420" y="98" class="t v" style="fill:#e63946">0.918</text>
+  <text x="385" y="385" text-anchor="middle" class="t l">PR-AUC</text>
+  <rect x="520" y="276" width="60" height="84" fill="#6c757d"/>
+  <rect x="590" y="186" width="60" height="174" fill="#e63946"/>
+  <text x="550" y="270" class="t v" style="fill:#1d3557">0.30</text>
+  <text x="620" y="180" class="t v" style="fill:#e63946">0.62</text>
+  <text x="585" y="385" text-anchor="middle" class="t l">Precision@50</text>
+  <rect x="500" y="50" width="14" height="14" fill="#6c757d"/><text x="520" y="62" class="t l">Tabular only</text>
+  <rect x="500" y="72" width="14" height="14" fill="#e63946"/><text x="520" y="84" class="t l">Tabular + Graph</text>
+  <text x="360" y="410" text-anchor="middle" class="t l">Held-out n=625 · fraud rate 5.44% · real training run</text>
+</svg>

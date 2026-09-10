@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="480" viewBox="0 0 700 480">
+  <style>.t{font-family:Helvetica,Arial,sans-serif;fill:#1d3557;font-size:12px}.h{font-size:16px;font-weight:bold}</style>
+  <rect width="700" height="480" fill="#fff"/>
+  <text x="350" y="28" text-anchor="middle" class="t h">Top features — Tabular + Graph (GB)</text>
+  <g transform="translate(200,50)">
+    <text x="-8" y="18" text-anchor="end" class="t">shared_ip_count</text>
+    <rect x="0" y="5" width="408" height="20" fill="#457b9d"/>
+    <text x="415" y="18" class="t">0.678</text>
+    <text x="-8" y="48" text-anchor="end" class="t">neighbor_proxy</text>
+    <rect x="0" y="35" width="46" height="20" fill="#457b9d"/>
+    <text x="53" y="48" class="t">0.076</text>
+    <text x="-8" y="78" text-anchor="end" class="t">degree</text>
+    <rect x="0" y="65" width="25" height="20" fill="#457b9d"/>
+    <text x="32" y="78" class="t">0.042</text>
+    <text x="-8" y="108" text-anchor="end" class="t">shared_device_count</text>
+    <rect x="0" y="95" width="18" height="20" fill="#457b9d"/>
+    <text x="25" y="108" class="t">0.031</text>
+    <text x="-8" y="138" text-anchor="end" class="t">clustering</text>
+    <rect x="0" y="125" width="18" height="20" fill="#457b9d"/>
+    <text x="25" y="138" class="t">0.030</text>
+    <text x="-8" y="168" text-anchor="end" class="t">triangle_count</text>
+    <rect x="0" y="155" width="15" height="20" fill="#457b9d"/>
+    <text x="22" y="168" class="t">0.025</text>
+    <text x="-8" y="198" text-anchor="end" class="t">tx_amount_sum</text>
+    <rect x="0" y="185" width="13" height="20" fill="#a8dadc"/>
+    <text x="20" y="198" class="t">0.021</text>
+    <text x="-8" y="228" text-anchor="end" class="t">tx_count</text>
+    <rect x="0" y="215" width="12" height="20" fill="#a8dadc"/>
+    <text x="19" y="228" class="t">0.020</text>
+  </g>
+  <text x="350" y="460" text-anchor="middle" class="t">Blue = graph features · Teal = tabular · shared IP dominates collusion signal</text>
+</svg>
