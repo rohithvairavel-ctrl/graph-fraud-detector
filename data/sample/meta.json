@@ -1,0 +1,6 @@
+{
+  "note": "Small sample subset for quick inspection; full data in data/",
+  "n_accounts": 235,
+  "n_transfers": 205,
+  "n_fraud": 44
+}
